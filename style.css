@@ -1,0 +1,68 @@
+
+
+* {
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+    
+}
+body {
+    background-color: black;
+}
+.mainDiv {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    background-image: url(images/stoic.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+textarea {
+    background: rgba(255, 255, 255, 0.507);
+    border-radius: 1px gray;
+    border: 1px solid gray;
+    padding: 20px;
+    transition: 1s;
+    color: black;
+    
+    
+}
+.centerDiv {
+    text-align: center;
+}
+.centerDiv h1 {
+    letter-spacing: 20px;
+    text-align: center;
+    margin: 50px;
+    text-transform: uppercase;
+    
+}
+textarea:hover {
+    background: white;
+   
+
+}
+::placeholder {
+    color: black;
+    
+}
+
+.mainbtn {
+    display: inline-block;
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    width: 40%;
+    border-radius: 1px;
+    border-color: gray;
+    margin: 40px;
+    transition: 1s;
+    background: url(images/stoic2.jpg);
+    background-position: center;
+    background-size: cover;
+}
